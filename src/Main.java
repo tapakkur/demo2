@@ -1,4 +1,5 @@
 import com.tapakkur.demo.A;
+import com.tapakkur.demo.D;
 
 /**
  * demo
@@ -11,6 +12,7 @@ public class Main {
 
         A a = new A("BC", "hello world");
         System.out.println(a.toString());
+        D.info();
 
     }
 
